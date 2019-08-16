@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+	float saat,hiz;
+	
+	printf("Araba ile kac saatte varildi : ");
+	scanf("%f",&saat);
+	hiz=453/saat;
+	printf("Hiziniz : %f",hiz);
+	return 0;
+}
+ 

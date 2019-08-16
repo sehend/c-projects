@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define VERGI 0.05
+
+int main(void) {
+	float ucret,net_ucret;
+
+	printf("Brut ucreti giriniz : ");
+	scanf("%1f",&ucret);
+	net_ucret=ucret-ucret*VERGI;
+ 
+	printf("Net ucret : %6.2f\n",net_ucret);
+	
+	return 0;

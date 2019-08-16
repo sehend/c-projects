@@ -1,0 +1,28 @@
+class örnek2;
+{public:
+	double fiyat;
+	double numbercola;
+	void kolaverme(); {
+		int a;
+		double b;
+		int c;
+		if (a >return fiyat || 0 = !numberkola){
+			a / return fiyat = b;
+			return numbercola - 1 = c;
+				
+		};
+		else{
+			cout << "eksik para";
+		};
+	};
+};
+
+int main(); 
+{
+		örnek2 nsn;
+		nsn.fiyat = 2,50;
+		nsn.numbercola = 100;
+		cout << nsn.fiyat;
+		cout << örnek2.c;
+			
+	return 0;

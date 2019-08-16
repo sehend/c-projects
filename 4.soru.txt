@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+	float en,boy,yukseklik,alan;
+	printf("Havuzun eni : ");
+	scanf("%f",&en);
+	printf("Havuzun boyu : ");
+	scanf("%f",&boy);
+	printf("Havuzun yuksekligi : ");
+	scanf("%f",&yukseklik);
+	alan=en*boy*yukseklik;
+	printf("Havuzun Dolmasý için %f m3 su gerekiyor ",alan);
+	return 0;
+} 
